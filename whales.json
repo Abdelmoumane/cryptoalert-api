@@ -1,18 +1,28 @@
 {
   "transactions": [
     {
+      "symbol": "usdt",
+      "transaction_type": "transfer",
+      "amount_usd": 152335883,
+      "from": { "owner": "Unknown Wallet" },
+      "to": { "owner": "OKX Exchange" },
+      "message": "152,233,278 #USDT (152,335,883 USD) transferred from unknown wallet to #OKX"
+    },
+    {
       "symbol": "btc",
       "transaction_type": "transfer",
-      "amount_usd": 250000000,
+      "amount_usd": 427000000,
       "from": { "owner": "Binance" },
-      "to": { "owner": "Whale Wallet" }
+      "to": { "owner": "Whale Private Wallet" },
+      "message": "6,300 #BTC (427,000,000 USD) withdrawn from #Binance to Whale wallet 🚨"
     },
     {
       "symbol": "eth",
       "transaction_type": "transfer",
-      "amount_usd": 90000000,
-      "from": { "owner": "Kraken" },
-      "to": { "owner": "Private Wallet" }
+      "amount_usd": 128500000,
+      "from": { "owner": "Private Wallet" },
+      "to": { "owner": "Kraken" },
+      "message": "58,000 #ETH (128,500,000 USD) transferred to #Kraken 📥"
     }
   ]
 }
